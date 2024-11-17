@@ -1,13 +1,15 @@
-import Animals from "./components/Animals";
-import Counter from "./components/Counter";
-import Welcome from "./components/Welcome";
+import Todo from "./components/Todo";
+import './App.css';
+import Header from "./components/header";
 
 function App() {
+
   return (
     <>
-    <Counter />
+    <Header />
+    <Todo />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
